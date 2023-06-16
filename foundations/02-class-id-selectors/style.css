@@ -1,0 +1,30 @@
+:root {
+  --bg-pink: rgb(255, 184, 184);
+  --fc-blue: rgb(61, 61, 255);
+  --bg-green: rgb(48, 244, 48);
+}
+body{
+  margin-top:154px;
+  font-family: Verdana, DejaVu Sans, sans-serif;
+}
+.num1, .num5{
+  font-size: 12px;
+  background-color: var(--bg-pink);
+}
+
+#num2{
+  font-size: calc(36px);
+  color: var(--fc-blue);
+}
+
+.num3.odd{
+  font-size: 24px;
+  background-color: var(--bg-pink);
+}
+
+#num4 {
+  font-weight: bold;
+  font-size: 24px;
+  background-color: var(--bg-green);
+}
+
